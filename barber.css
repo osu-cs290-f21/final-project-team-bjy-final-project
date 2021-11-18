@@ -1,1 +1,53 @@
-/* NULL */
+body
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.container
+{
+    background-color: rgb(138, 181, 209);
+    margin: 200px;
+    box-shadow: black;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.container-time
+{
+    background-color: rgb(15, 56, 119);
+    padding: 50px;
+    outline: 3px goldenrod;
+    outline-offset: -30px;
+    text-align: center;
+}
+
+.heading
+{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.container-form
+{
+    padding: 20px 0;
+    margin: 0 auto;
+    color: black;
+}
+
+form p
+{
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
