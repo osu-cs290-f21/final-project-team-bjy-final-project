@@ -12,7 +12,8 @@ header {
 }
 
 h1 {
-    color: white;
+    color:#4B3929;
+
     font-family: 'Praise', cursive;
     font-size: 90px;
     padding-left: 15px;
@@ -22,6 +23,7 @@ h1 {
 .navbar {
     font-size: 22px;
     background-color: #6D5241;
+    position: relative;
 }
 .navlist {
     margin: 0;
@@ -33,12 +35,13 @@ h1 {
 
 .navitem:hover {
     background-color: rgba(231, 132, 119, 0.18);
+    color: white;
 }
 
 .navitem a {
     display: inline-block;
     color:white;
-    padding: 5px 10px;
+    padding: 5px 15px;
     text-decoration: none;
 }
 
@@ -52,6 +55,7 @@ h1 {
 .main-img {
     max-height: 20%;
     max-width: 100%;
+    opacity: 0.5;
 
     filter: blur(8px);
     -webkit-filter: blur(8px);
