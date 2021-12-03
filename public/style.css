@@ -59,7 +59,6 @@ h1 {
 
 .book-button {
     position: fixed;
-<<<<<<< HEAD
 }
 
 body
@@ -146,29 +145,3 @@ form p
 
 
 
-=======
-    top: 90%;
-    left: 45%;
-    height: 50px;
-    width: 200px;
-    font-size: 15px;
-    font-family: 'Merriweather', serif;
-    background-color: #915551;
-    color: white;
-
-}
-
-.book-button:hover {
-    background-color: #915551;
-    color: white;
-    cursor: pointer;
-}
-
-.welcome-message {
-    color: white;
-    font-family: serif;
-    position: absolute;
-    font-size: 80px;
-    top: 50px;
-}
->>>>>>> 96b574afe29779f6279aa687d3435f088b58c76b
