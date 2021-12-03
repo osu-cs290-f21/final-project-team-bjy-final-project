@@ -74,6 +74,41 @@ h1 {
 
 }
 
+.book-button:hover {
+    background-color: #915551;
+    color: white;
+    cursor: pointer;
+}
+
+.welcome-message {
+    color: white;
+    font-family: serif;
+    position: absolute;
+    top: 180px;
+}
+.center {
+    margin: auto;
+    width: 50%;
+
+}
+.welcome-title {
+    font-size: 200px;
+    color: white;
+    text-shadow: 0 0 3px #2f3f0f, 0 0 10px #000000;
+    font-family: 'Praise', cursive;
+    padding-left: 20%;
+}
+
+.welcome-quote {
+    padding-left: 20%;
+    font-size: 70px;
+    border-width: 1px;
+    text-align: center;
+    max-width: 100%;
+    padding-left: 20%;
+}
+
+
 .container
 {
     background-color: rgb(138, 181, 209);
