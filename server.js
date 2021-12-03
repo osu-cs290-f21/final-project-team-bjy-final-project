@@ -1,5 +1,5 @@
 var express = require('express')
-var exphbs = require('exphbs')
+var exphbs = require('express-handlebars')
 
 
 var port = process.env.PORT || 8000;
