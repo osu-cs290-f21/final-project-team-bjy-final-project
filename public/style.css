@@ -1,0 +1,59 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+header {
+    background-color: #CEB793;
+    display: flex;
+    position: relative;
+}
+
+h1 {
+    color: white;
+    font-family: 'Praise', cursive;
+    font-size: 90px;
+    padding-left: 15px;
+    margin: 0;
+}
+
+.navbar {
+    font-size: 22px;
+    background-color: #8FA6AC;
+}
+.navlist {
+    margin: 0;
+}
+
+.navitem {
+    display: inline-block;
+}
+
+.navitem:hover {
+    background-color: rgba(231, 132, 119, 0.18);
+}
+
+.navitem a {
+    display: inline-block;
+    color:white;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.main-div {
+    padding-top: 3px;
+    height: 100%;
+    width: 100%;
+}
+.main-img {
+    height: 600px;
+    width: 100%;
+
+    filter: blur(7px);
+    -webkit-filter: blur(8px);
+}
+
+.book-button {
+    position: fixed;
+}
