@@ -59,6 +59,15 @@ h1 {
 
 .book-button {
     position: fixed;
+    top: 90%;
+    left: 45%;
+    height: 50px;
+    width: 200px;
+    font-size: 15px;
+    font-family: 'Merriweather', serif;
+    background-color: #915551;
+    color: white;
+
 }
 
 .container
@@ -136,12 +145,5 @@ form p
     background-color: white;
     border: gold;
 }
-
-
-
-
-
-
-
 
 
