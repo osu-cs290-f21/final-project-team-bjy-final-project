@@ -1,6 +1,7 @@
 body {
     padding: 0;
     margin: 0;
+    font-family: 'Lucida Sans', sans-serif;
     background-color: white;
     max-width: 100%;
 }
@@ -111,20 +112,21 @@ h1 {
 
 .container
 {
-    background-color: rgb(138, 181, 209);
+    background-color: #715D4C;
     margin: 200px;
-    box-shadow: black;
+    box-shadow: whitblacke;
     display: grid;
     grid-template-columns: 40% 60%;
 }
 
 .container-time
 {
-    background-color: rgb(15, 56, 119);
+    background-color: yellow;
     padding: 50px;
-    outline: 3px goldenrod;
+    outline: 3px dashed goldenrod;
     outline-offset: -30px;
     text-align: center;
+    border: 3px dashed #998100;
 }
 
 .heading
@@ -193,5 +195,16 @@ form p
     bottom: 500px;
     left: 600px;
 }
+
+form {
+    display: grid;
+    grid-row-gap: 20px;
+}
+
+.form-field {
+    display: flex;
+    justify-content: space-between;
+}
+
 
 
