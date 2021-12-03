@@ -59,89 +59,27 @@ h1 {
 
 .book-button {
     position: fixed;
+    top: 90%;
+    left: 45%;
+    height: 50px;
+    width: 200px;
+    font-size: 15px;
+    font-family: 'Merriweather', serif;
+    background-color: #915551;
+    color: white;
+
 }
 
-/* body
-{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    color: #fff;
-    letter-spacing: 2px;
-} */
-
-.container
-{
-    background-color: rgb(138, 181, 209);
-    margin: 200px;
-    box-shadow: black;
-    display: grid;
-    grid-template-columns: 40% 60%;
+.book-button:hover {
+    background-color: #915551;
+    color: white;
+    cursor: pointer;
 }
 
-.container-time
-{
-    background-color: rgb(15, 56, 119);
-    padding: 50px;
-    outline: 3px goldenrod;
-    outline-offset: -30px;
-    text-align: center;
+.welcome-message {
+    color: white;
+    font-family: serif;
+    position: absolute;
+    font-size: 80px;
+    top: 0px;
 }
-
-.heading
-{
-    font-size: 30px;
-    text-transform: uppercase;
-}
-
-.container-form
-{
-    padding: 20px 0;
-    margin: 0 auto;
-    color: black;
-}
-
-form p
-{
-    font-weight: 600;
-}
-
-.btn
-{
-    background-color: black;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    font-size: 18px;
-    border-radius: 100px;
-    box-shadow: 7px 10px 15px rgba(0, 0, 0, 1);
-}
-
-.btn:hover{
-    transform: scale(1.1);
-}
-
-.about-photo {
-    height: 600px;
-    width: 600px;
-    position: relative;
-}
-
-.about-img {
-    height: 600px;
-    width: 600px;
-    position: relative;
-}
-
-.about-text {
-    background-color: white;
-    border: gold;
-}
-
-
-
-
-
-
-
-
-
