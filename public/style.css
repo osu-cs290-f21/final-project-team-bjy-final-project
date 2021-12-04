@@ -173,8 +173,8 @@ form p
     height: 600px;
     width: 600px;
     position: relative;
-    left: 50px;
-    top: 60px;
+    left: 300px;
+    top: 210px;
     
 }
 
@@ -186,14 +186,26 @@ form p
 }
 
 .about-text {
+    font-family: sans-serif;
     text-align: center;
     height: 500px;
     width: 500px;
     background-color:white ;
     border: 2px solid gold;
     position: relative;
-    bottom: 500px;
-    left: 600px;
+    bottom: 340px;
+    left: 850px;
+}
+
+#about-heading {
+    font-size: 40px;
+}
+
+#about-p {
+    line-height: 40px;
+    font-size: 22px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 form {
@@ -206,5 +218,14 @@ form {
     justify-content: space-between;
 }
 
-
+.about-header {
+    font-size: large;
+    height: 100px;
+    font-family: 'Praise', cursive;
+    text-align: center;
+    background-color: white;
+    position: relative;
+    bottom: 1100px;
+    padding-top: 50px;
+}
 
