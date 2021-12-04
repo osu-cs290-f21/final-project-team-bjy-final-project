@@ -2,7 +2,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Lucida Sans', sans-serif;
-    background-color: white;
+    background-color: #4B3929;
     max-width: 100%;
 }
 
@@ -114,7 +114,7 @@ h1 {
 {
     background-color: #715D4C;
     margin: 200px;
-    box-shadow: whitblacke;
+    box-shadow: black;
     display: grid;
     grid-template-columns: 40% 60%;
 }
