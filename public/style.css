@@ -187,17 +187,21 @@ form p
 
 .about-img {
     border: 2px solid white;
-    height: 600px;
-    width: 600px;
+    height: 500px;
+    width: 500px; 
+    margin-right:  500px;
     position: relative;
 }
 
 .about-text {
     color: black;
+    flex-direction: column;
+
     font-family: sans-serif;
     text-align: center;
     height: 500px;
     width: 500px;
+    margin-right: 1000px;
     background-color:white ;
     border: 2px solid gold;
     position: relative;
@@ -239,12 +243,13 @@ form {
     bottom: 1100px;
 }
 
-.post-info {
+.post-info 
+{
     font-family: 'Lucida Sans', sans-serif;
     width: 100%;
     margin-top: 20px;
     position: relative;
-  }
+ }
 
   .post {
     flex-direction: column;
@@ -255,11 +260,11 @@ form {
     width: 850px;
     margin: 10px;
     padding-bottom: 10px;
-    
     border-radius: 3px;
     position: relative;
     display: flex;
   }
+
   p {
     word-spacing: 50px;
     position: relative;
