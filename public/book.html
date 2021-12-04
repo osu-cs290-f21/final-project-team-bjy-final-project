@@ -17,16 +17,18 @@
 
         <nav class="navbar">
             <ul class="navlist">
-              <li class="navitem"><a href="/">Home</a></li>
-              <li class="navitem"><a href="/people">People</a></li>
-              <li class="navitem right"><a href="/about">About Us</a></li>
+              <li class="navitem"><a href="#">Home</a></li>
+              <li class="navitem"><a href="#">Book Appointment</a></li>
+              <li class="navitem"><a href="#">About Us</a></li>
+              <li class="navitem right"><a href="#">Contact Info</a></li>
             </ul>
         </nav>
-
+        
         <div class="container">
+            
             <div class="container-time">
                 <h2 class="heading">Time Open</h2>
-                <h3 class="heading-days">Monday-riday</h3>
+                <h3 class="heading-days">Monday-Friday</h3>
                 <p>7am - 5pm</p>
                 <p>12pm - 1pm (lunch/time)</p>
 
@@ -36,7 +38,7 @@
                 <h4 class="heading-phone">appointment phone call: (123)-456-789</h4>
                 
             </div>
-
+            
             <div class="container-form">
                 <div>
                     <form action="#">
@@ -60,13 +62,13 @@
                         </div>
                         <div>
                             <div class="form-field">
-                                <p>Number of people assign</p>
+                                <p>Type of haircut</p>
                                     <select name="select" id="#">
-                                        <option value="1">One person</option>
-                                        <option value="2">Two people</option>
-                                        <option value="3">Three people</option>
-                                        <option value="4">Four people</option>
-                                        <option value="5+">Five or more people</option>
+                                        <option selected value="">Any</option>
+                                        <option value="25">Regular Haircut ($25)</option>
+                                        <option value="15">Lineup only ($15)</option>
+                                        <option value="20">Beard and mustache lineup ($20)</option>
+                                        <option value="35">Full package haircut ($35)</option>
                                     </select>
                                 </div>
                             <button class= "btn">Submit</button>
@@ -76,6 +78,44 @@
                 </div>
 
             </div>
+            
+            <h2>
+                <p>Appointment List</p>
+            </h2>
+            <h2>
+                <p>(Name) (Date,Time) (E-mail)</p>
+            </h2>
+            
+        <section id= "post">
+        <div style="color: rgb(182, 142, 67)">
+            <strong>
+            <div class= "post" Name= "Yang" Date_Time= "12/10" E-amil= "yangchun@oregonstate.edu">
+                <div class= "content">
+                    <div class="post-info">
+                        <p>(Yang) Dec10 9A.M. yangchun@oregonstate.edu Regular_Haircut ($25)</p>
+                    </div>
+                </div>         
+            </div>
+
+            <div class= "post" Name= "" Date_Time= "" E-amil= "">
+                <div class= "content">
+                    <div class="post-info">
+                        
+                        <p>(Jason) Dec10 2P.M jason@oregonstate.edu Lineup_only ($15)</p>
+                    </div>
+                </div>         
+            </div>
+
+            <div class= "post" Name= "Yang" Date_Time= "12/10" E-amil= "yangchun@oregonstate.edu">
+                <div class= "content">
+                    <div class="post-info">        
+                        <p>(Bussin) Dec10 3P.M. bensonbui@oregonstate.edu Full_package_haircut ($35)</p>
+                    </div>
+                </div>         
+            </div>
+        </strong>
+        </div>
+        </section>
 
         </div>
     </body>

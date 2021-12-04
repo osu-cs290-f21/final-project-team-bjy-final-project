@@ -1,5 +1,5 @@
 var express = require('express')
-var exphbs = require('exphbs')
+var exphbs = require('express-handlebars')
 
 
 var port = process.env.PORT || 8000;
@@ -26,29 +26,7 @@ app.get('*', function (req, res, next) {
     res.status(400).sendFile(__dirname + '/public/404.html')
 })
 
-/*app.post ('/create/add', function (req,res,next) {
-    console.log("== req.body:", req.body);
-    if (req.body && req.body)
-    {
-      data.push({
-       
-      });
-      fs.writeFile(
-        __dirname + '/database.json',
-        JSON.stringify(data, null, 2),
-        function (err, data) {
-          if (err) {
-            console.log("  -- err:", err);
-            res.status(500).send("Error");
-          } else {
-            res.status(200).send("Data successfully added.")
-          }
-        }
-      );  
-    } else{
-    res.status(400).send("interrupt error");
-    }
-});*/
+
 
 app.listen(port, function(err) {
     if (err) {

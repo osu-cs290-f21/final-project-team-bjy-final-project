@@ -2,7 +2,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Lucida Sans', sans-serif;
-    background-color: white;
+    background-color: #4B3929;
     max-width: 100%;
 }
 
@@ -93,7 +93,7 @@ h1 {
 
 }
 .welcome-title {
-    font-size: 200px;
+    font-size: 150px;
     color: white;
     text-shadow: 0 0 3px #2f3f0f, 0 0 10px #000000;
     font-family: 'Praise', cursive;
@@ -102,7 +102,7 @@ h1 {
 
 .welcome-quote {
     padding-left: 20%;
-    font-size: 70px;
+    font-size: 50px;
     border-width: 1px;
     text-align: center;
     max-width: 100%;
@@ -112,16 +112,18 @@ h1 {
 
 .container
 {
+    position: relative;
+    bottom: 150px;
     background-color: #715D4C;
     margin: 200px;
-    box-shadow: whitblacke;
+    box-shadow: black;
     display: grid;
     grid-template-columns: 40% 60%;
 }
 
 .container-time
 {
-    background-color: yellow;
+    background-color: #CEB793;
     padding: 50px;
     outline: 3px dashed goldenrod;
     outline-offset: -30px;
@@ -142,6 +144,11 @@ h1 {
     color: black;
 }
 
+.appointments {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+}
 form p
 {
     font-weight: 600;
@@ -173,8 +180,8 @@ form p
     height: 600px;
     width: 600px;
     position: relative;
-    left: 50px;
-    top: 60px;
+    left: 300px;
+    top: 210px;
     
 }
 
@@ -186,14 +193,29 @@ form p
 }
 
 .about-text {
+    color: black;
+    font-family: sans-serif;
     text-align: center;
     height: 500px;
     width: 500px;
     background-color:white ;
     border: 2px solid gold;
     position: relative;
-    bottom: 500px;
-    left: 600px;
+    bottom: 340px;
+    left: 850px;
+}
+
+#about-heading {
+    color: #CEB793;
+    font-size: 40px;
+}
+
+#about-p {
+    color: #CEB793;
+    line-height: 40px;
+    font-size: 22px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 form {
@@ -206,5 +228,39 @@ form {
     justify-content: space-between;
 }
 
+.about-header {
+    color: #CEB793;
+    font-size: 50px;
+    height: 100px;
+    font-family: 'Praise', cursive;
+    text-align: center;
+    background-color: white;
+    position: relative;
+    bottom: 1100px;
+}
 
+.post-info {
+    font-family: 'Lucida Sans', sans-serif;
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+  }
 
+  .post {
+    flex-direction: column;
+    background-color: white;
+    display: inline-block;
+    vertical-align: top;
+    height: 30px;
+    width: 850px;
+    margin: 10px;
+    padding-bottom: 10px;
+    
+    border-radius: 3px;
+    position: relative;
+    display: flex;
+  }
+  p {
+    word-spacing: 50px;
+    position: relative;
+  }
