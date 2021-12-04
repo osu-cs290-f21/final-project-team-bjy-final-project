@@ -112,6 +112,8 @@ h1 {
 
 .container
 {
+    position: relative;
+    bottom: 150px;
     background-color: #715D4C;
     margin: 200px;
     box-shadow: black;
@@ -142,6 +144,11 @@ h1 {
     color: black;
 }
 
+.appointments {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+}
 form p
 {
     font-weight: 600;
