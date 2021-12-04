@@ -186,6 +186,7 @@ form p
 }
 
 .about-text {
+    color: black;
     font-family: sans-serif;
     text-align: center;
     height: 500px;
