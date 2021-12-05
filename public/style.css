@@ -254,10 +254,9 @@ form {
   .post {
     flex-direction: column;
     background-color: white;
-    display: inline-block;
     vertical-align: top;
     height: 30px;
-    width: 850px;
+    width: 1000px;
     margin: 10px;
     padding-bottom: 10px;
     border-radius: 3px;
@@ -270,3 +269,11 @@ form {
     position: relative;
     text-align: center;
   }
+
+h3 
+{
+    word-spacing: 20px;
+    margin-left: 80px;
+    color: blanchedalmond;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
