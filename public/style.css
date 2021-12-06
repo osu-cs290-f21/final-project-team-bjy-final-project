@@ -169,6 +169,23 @@ form p
     transform: scale(1.1);
 }
 
+
+.cancel
+{
+    background-color: black;
+
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    border-radius: 100px;
+    box-shadow: 7px 10px 15px rgba(0, 0, 0, 1);
+}
+
+.cancel:hover{
+    transform: scale(1.1);
+}
+
 #about-div {
     padding-top: 3px;
     height: 20%;
@@ -292,4 +309,10 @@ content{
 content .post-info span{
     position: absolute;
     text-align: end;
+}
+
+.app-list{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 100px;
+    width: 800px;
 }
