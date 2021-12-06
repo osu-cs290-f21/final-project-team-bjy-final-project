@@ -173,7 +173,6 @@ form p
 .cancel
 {
     background-color: black;
-
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -270,8 +269,9 @@ form {
 
 .post {
     flex-direction: column;
+    display: inline-block;
     background-color: white;
-    vertical-align: top;
+    
     height: 30px;
     width: 800px;
     margin: 10px;
@@ -292,9 +292,11 @@ h3
     font-family: Georgia, 'Times New Roman', Times, serif
 }
 
-content{
+.content{
     list-style: none;
     width: 100px;
+    position: relative;
+    text-align: center;
 }
 
 .post-info{
@@ -306,13 +308,10 @@ content{
     box-shadow: 3px 6px 4px burlywood;
 }
 
-content .post-info span{
-    position: absolute;
-    text-align: end;
-}
+
 
 .app-list{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-left: 100px;
     width: 800px;
 }
