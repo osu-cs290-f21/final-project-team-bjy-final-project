@@ -43,6 +43,8 @@ var input_appointment_button = function
         return;
     }
     else
+    post
+
     
 }
 
