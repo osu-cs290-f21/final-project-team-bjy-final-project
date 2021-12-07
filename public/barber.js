@@ -20,6 +20,16 @@ function modal_switch()
     document.getElementById("cancel-appointment-button").classList.toggle('hidden');
 }
 
+function empty() 
+{
+    clientname.value = '';
+    email.value = '';
+    date.value = '';
+    Time.value = '';
+    select.style.display = 'none';
+    document.getElementById('select').click();
+}
+
 var input_appointment_button = function 
 {
     var check_name = document.getElementById('client-name').value;
@@ -33,6 +43,9 @@ var input_appointment_button = function
         return;
     }
     else
+    post
+
+    
 }
 
 
