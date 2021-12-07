@@ -343,6 +343,16 @@ div.info-email{
     margin: 0;
 }
 
+.app-list2{
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    width: 40%;
+    position: relative;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+}
+
+
 
 .appt-text {
     font-family: 'Praise', cursive;
@@ -358,5 +368,7 @@ div.info-email{
 .appt-detail {
     position: relative;
     float: left;
-    left: -550px;
+    padding-left: 5px;
+    margin-left: 5px;
+    /* left: -550px; */
 }
