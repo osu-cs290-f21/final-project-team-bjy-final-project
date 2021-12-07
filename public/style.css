@@ -149,6 +149,7 @@ h1 {
     height: 500px;
     background-color: white;
 }
+
 form p
 {
     font-weight: 600;
@@ -299,6 +300,7 @@ h3 {
 
 div.info-date{
     float: 20%right;
+    text-align: ;
 }
 
 div.info-time{
