@@ -133,7 +133,7 @@ h1 {
     background-color: #715D4C;
     margin: 200px;
     box-shadow: black;
-    display: grid;
+    display: block;
     grid-template-columns: 40% 60%;
 }
 
@@ -262,30 +262,14 @@ form {
     bottom: 1100px;
 }
 
-.post-info {
-    font-family: 'Lucida Sans', sans-serif;
-    width: 100%;
-    margin-top: 20px;
+#post {
     position: relative;
+    padding: 5px;
 }
-
-/* .post {
-    flex-direction: column;
-    display: inline-block;
-    background-color: white;
-    height: 10px;
-    width: 800px;
-    margin: 10px;
-    padding-bottom: 10px;
-    border-radius: 3px;
-    position: relative;
-    top: 1000px;
-    word-spacing: 30px;
-    text-align: center;
-} */
 
 .place {
     position: static;
+    left: -400px;
 }
 
 h3 {
@@ -311,14 +295,6 @@ h3 {
     padding: 0 5px;
     box-shadow: 3px 6px 4px burlywood;
 }
-
-.app-list{
-    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
-    width: 800px;
-    position: static;
-    height: 500px;
-}
-
 
 div.info-date{
     float: 20%right;
@@ -356,6 +332,13 @@ div.info-email{
     cursor: pointer;
 }
 
+.app-list{
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    width: auto;
+    position: relative;
+    height: 200px;
+    border-radius: 2px;
+}
 
 
 .appt-text {
