@@ -338,8 +338,9 @@ div.info-email{
     /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
     width: auto;
     position: relative;
-    height: 200px;
-    border-radius: 2px;
+    height: 100px;
+    padding: 0;
+    margin: 0;
 }
 
 
