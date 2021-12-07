@@ -188,8 +188,8 @@ form p
 
 .about-img {
     border: 2px solid white;
-    height: 500px;
-    width: 500px; 
+    height: 600px;
+    width: 600px; 
     margin-right:  500px;
     position: relative;
 }
@@ -206,8 +206,8 @@ form p
     background-color:white ;
     border: 2px solid gold;
     position: relative;
-    bottom: 340px;
-    left: 850px;
+    bottom: 335px;
+    left: 845px;
 }
 
 #about-heading {
