@@ -357,6 +357,6 @@ div.info-email{
 
 .appt-detail {
     position: relative;
-    left: -70px;
     float: left;
+    left: -550px;
 }
