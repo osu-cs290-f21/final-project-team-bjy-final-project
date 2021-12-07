@@ -62,10 +62,8 @@ h1 {
 }
 
 .book-button {
-    align-items: center;
     position: fixed;
     top: 90%;
-    left: 45%;
     height: 50px;
     width: 200px;
     font-size: 15px;
@@ -73,6 +71,13 @@ h1 {
     background-color: #915551;
     color: white;
 
+}
+
+#a-button {
+    position: fixed;
+    top: 90%;
+    height: 50px;
+    width: 200px;
 }
 
 .big-photo {
@@ -87,7 +92,6 @@ h1 {
 }
 
 .welcome-message {
-    /* text-align: center; */
     color: white;
     font-family: serif;
     position: absolute;
@@ -97,8 +101,6 @@ h1 {
 
 .welcome-title {
     text-align: center;
-    /* float: right;
-    text-align: center; */
     font-size: 150px;
     color: white;
     text-shadow: 0 0 3px #2f3f0f, 0 0 10px #000000;
