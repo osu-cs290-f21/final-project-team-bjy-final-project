@@ -166,6 +166,7 @@ form p
 
 .btn:hover{
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 
@@ -283,6 +284,7 @@ h3 {
 .post-info {
     width: 800px;
     background: #fff;
+    opacity: 0.8;
     line-height: 40px;
     position: relative;
     padding: 0 5px;
@@ -319,7 +321,10 @@ div.info-email{
     padding: 5px 10px;
     border: none;
     float: right;
-    font-size: 18px;
+    position: relative;
+    right: 7px;
+    top: 7px;
+    font-size: 13px;
     border-radius: 100px;
     box-shadow: 7px 10px 15px rgba(0, 0, 0, 1);
 }
@@ -334,11 +339,13 @@ div.info-email{
 .appt-text {
     font-family: 'Praise', cursive;
     font-size: 90px;
+    color: #CEB793;
     padding: 0;
     margin: 0;
     float: left;
     position: relative;
     left: -90px;
+    -webkit-text-stroke: .2px black;
 }
 
 .appt-detail {
