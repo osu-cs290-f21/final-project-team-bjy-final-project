@@ -14,7 +14,6 @@ header {
 
 h1 {
     color:#4B3929;
-
     font-family: 'Praise', cursive;
     font-size: 90px;
     padding-left: 15px;
@@ -333,4 +332,18 @@ div.info-email{
 
 
 
+.appt-text {
+    font-family: 'Praise', cursive;
+    font-size: 90px;
+    padding: 0;
+    margin: 0;
+    float: left;
+    position: relative;
+    left: -90px;
+}
 
+.appt-detail {
+    position: relative;
+    left: -170px;
+    float: left;
+}
