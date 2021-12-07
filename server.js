@@ -5,6 +5,9 @@ var exphbs = require('express-handlebars')
 var port = process.env.PORT || 8000;
 var app = express();
 
+var postData = require('./apptPost.json')
+
+
 app.engine('handlebars', exphbs.engine({ defaultLayout: 'main' }))
 app.set('view engine', 'handlebars')
 
@@ -19,12 +22,17 @@ app.get('/about', function (res, req, next) {
 })
 
 app.get('/book', function (req, res, next) {
-    res.status(200).sendFile(__dirname + '/public/barber.html')
+    // res.status(200).sendFile(__dirname + '/public/barber.html')
+    res.status(200).render('bookPage', {
+
+    })
 })
 
 app.get('*', function (req, res, next) {
     res.status(400).sendFile(__dirname + '/public/404.html')
 })
+
+
 
 
 

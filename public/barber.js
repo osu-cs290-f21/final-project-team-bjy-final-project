@@ -20,6 +20,20 @@ function modal_switch()
     document.getElementById("cancel-appointment-button").classList.toggle('hidden');
 }
 
+var input_appointment_button = function 
+{
+    var check_name = document.getElementById('client-name').value;
+    var check_e_mail = document.getElementById('email').value;
+    var check_data = document.getElementById('date').value;
+    var check_time = document.getElementById('Time').value;
+    var check_type = document.getElementById('select').value;
+    if (check_name == '' || check_e_mail == '' || check_data == '' || check_time == '' || check_type == '') 
+    {
+        alert("There are empty boxes")
+        return;
+    }
+    else
+}
 
 
 

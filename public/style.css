@@ -98,6 +98,17 @@ h1 {
     top: 180px;
 }
 
+.main-page {
+    color: white;
+    font-family: serif;
+    position: absolute;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+}
+
 
 .welcome-title {
     text-align: center;
@@ -258,9 +269,9 @@ form {
     width: 100%;
     margin-top: 20px;
     position: relative;
- }
+}
 
-.post {
+/* .post {
     flex-direction: column;
     display: inline-block;
     background-color: white;
@@ -270,10 +281,13 @@ form {
     padding-bottom: 10px;
     border-radius: 3px;
     position: relative;
-    display: flex;
+    top: 1000px;
     word-spacing: 30px;
-    position: relative;
     text-align: center;
+} */
+
+.place {
+    position: static;
 }
 
 h3 {
@@ -301,9 +315,10 @@ h3 {
 }
 
 .app-list{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-left: 100px;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
     width: 800px;
+    position: static;
+    height: 500px;
 }
 
 
@@ -353,12 +368,11 @@ div.info-email{
     margin: 0;
     float: left;
     position: relative;
-    left: -90px;
     -webkit-text-stroke: .2px black;
 }
 
 .appt-detail {
     position: relative;
-    left: -170px;
+    left: -70px;
     float: left;
 }
