@@ -370,5 +370,5 @@ div.info-email{
     float: left;
     padding-left: 5px;
     margin-left: 5px;
-    /* left: -550px; */
+    width: 100%;
 }
