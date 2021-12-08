@@ -6,9 +6,21 @@
 var appointmentName = document.getElementById('client-name')
 var appointmentEmail = document.getElementById('client-email')
 var appointmentDate = document.getElementById('client-date')
+
 var appointmentList = document.getElementById('client-time')
 var appointmentList = document.getElementById('client-type')
 
+function insertNewPost () {
+    var context = {
+        name: name,
+        email: email,
+        date: date,
+        time: time,
+        type: time
+    }
+
+    // add handlebar function
+}
 
 function modal_switch() 
 {
@@ -30,7 +42,8 @@ function empty()
     document.getElementById('client-type').click();
 }
 
-var input_appointment_button = function 
+
+var input_appointment_button = function ()
 {
     var check_name = document.getElementById('client-name').value;
     var check_e_mail = document.getElementById('client-email').value;
