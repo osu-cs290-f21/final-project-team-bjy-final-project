@@ -175,6 +175,7 @@ form p
 
 .btn
 {
+    margin-top: 20px;
     background-color: black;
     color: #fff;
     padding: 10px 20px;
@@ -376,4 +377,36 @@ div.info-email{
 
 .form-page {
     padding: 10px;
+}
+
+#client-name {
+    padding-right: 15%;
+    width: 50%;
+}
+
+#client-email {
+    padding-right: 15%;
+    width: 50%;
+}
+
+#client-date {
+    padding-right: 15%;
+    width: 50%;
+
+}
+
+#client-time {
+    padding-right: 15%;
+    width: 50%;
+
+}
+
+#client-type {
+    padding-right: 15%;
+    width: 50%;
+}
+
+.input-info {
+    padding-left: 15%;
+    font-size: 20px;
 }
