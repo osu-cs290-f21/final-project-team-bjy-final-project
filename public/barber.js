@@ -3,9 +3,9 @@
 // take each value and appoint it with a handlebar to make the post
 // have the handlebar create the post. 
 // change the bookPage 
-var appointmentList = document.getElementById('client-name')
-var appointmentList = document.getElementById('client-email')
-var appointmentList = document.getElementById('client-date')
+var appointmentName = document.getElementById('client-name')
+var appointmentEmail = document.getElementById('client-email')
+var appointmentDate = document.getElementById('client-date')
 var appointmentList = document.getElementById('client-time')
 var appointmentList = document.getElementById('client-type')
 
