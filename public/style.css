@@ -403,10 +403,17 @@ div.info-email{
 
 #client-type {
     padding-right: 15%;
-    width: 50%;
+    width: 65.5%;
 }
 
 .input-info {
     padding-left: 15%;
     font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.heading-heading-gold{
+    font-family: fantasy;
+    font-size: xx-large;
+    color: #CEB793;
 }
