@@ -1,24 +1,24 @@
 [
     {
         "name": "Benson Bui",
-        "date": "Eugene",
-        "time": "poor",
+        "date": "December 10",
+        "time": "10 A.M.",
         "email": "benson@oregonstate.edu",
-        "type": "Super nice laptop"
+        "type": "Full package haircut ($35)"
     },
     {
         "name": "Jason Ho",
-        "date": "Eugene",
-        "time": "poor",
+        "date": "December 11",
+        "time": "2 P.M.",
         "email": "jason@oregonstate.edu",
-        "type": "Super nice laptop"
+        "type": "Regular haircut ($25)"
     },
     {
         "name": "Chun-Yu Yang",
-        "date": "Eugene",
-        "time": "poor",
+        "date": "December 11",
+        "time": "9 A.M.",
         "email": "yang@oregonstate.edu",
-        "type": "Super nice laptop"
+        "type": "Beard and mustache lineup ($20)"
     }
 ]
   
