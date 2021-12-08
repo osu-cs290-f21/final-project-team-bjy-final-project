@@ -38,10 +38,6 @@ app.get('*', function (req, res, next) {
     })
 })
 
-
-
-
-
 app.listen(port, function(err) {
     if (err) {
         throw err;
