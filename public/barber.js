@@ -4,10 +4,18 @@
 // have the handlebar create the post. 
 // change the bookPage 
 var appointmentList = document.getElementById('client-name')
+<<<<<<< HEAD
+var appointmentList = document.getElementById('email')
+var appointmentList = document.getElementById('date')
+var appointmentList = document.getElementById('time')
+var appointmentList = document.getElementById('select')
+=======
 var appointmentList = document.getElementById('client-email')
 var appointmentList = document.getElementById('client-date')
 var appointmentList = document.getElementById('client-time')
 var appointmentList = document.getElementById('client-type')
+>>>>>>> 6ed8f4b744fce4a8e5b58dd60e8b9acb4791be90
+
 
 function insertNewPost () {
     var context = {
@@ -41,7 +49,8 @@ function empty()
     document.getElementById('client-type').click();
 }
 
-var input_appointment_button = function 
+
+var input_appointment_button = function ()
 {
     var check_name = document.getElementById('client-name').value;
     var check_e_mail = document.getElementById('client-email').value;
