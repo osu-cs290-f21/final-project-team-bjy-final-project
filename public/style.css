@@ -252,8 +252,9 @@ form {
 .form-field {
     display: flex;
     justify-content: space-between;
-    color: #251a07;
-    font-family: fantasy;
+    color: black;
+    font-family: monospace;
+    font-size: x-large;
 }
 
 .about-header {
