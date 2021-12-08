@@ -2,7 +2,7 @@
 // take in the inputed data
 // take each value and appoint it with a handlebar to make the post
 // have the handlebar create the post. 
-// change the bookPage 
+
 
 var allPosts = []
 
@@ -19,6 +19,7 @@ submitButton.addEventListener('click', function () {
 
 function insertNewPost(name, email, date, time, type) {
     var posts = {
+
         name: name,
         email: email,
         date: date,
