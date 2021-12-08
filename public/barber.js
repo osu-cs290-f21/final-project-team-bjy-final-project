@@ -8,7 +8,7 @@ var allPosts = []
 
 var submitButton = document.querySelector('.btn')
 submitButton.addEventListener('click', function () {
-    console.log("== button lcicked")
+    console.log("== button cicked")
     var apptName = document.getElementById('client-name').value
     var apptEmail = document.getElementById('client-email').value
     var apptDate = document.getElementById('client-date').value
@@ -19,6 +19,12 @@ submitButton.addEventListener('click', function () {
 
     clearInputs();
 })
+
+// var cancelButton = document.querySelector('.cancel')
+// cancelButton.addEventListener('click', function () {
+//     console.log("== cancel button clicked")
+
+// })
 
 function clearInputs() {
     document.getElementById('client-name').value = ""
