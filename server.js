@@ -24,7 +24,7 @@ app.get('/about', function (res, req, next) {
 app.get('/book', function (req, res, next) {
     // res.status(200).sendFile(__dirname + '/public/barber.html')
     res.status(200).render('bookPage', {
-
+        
     })
 })
 
