@@ -18,7 +18,6 @@ function insertNewPost () {
         time: time,
         type: time
     }
-
     // add handlebar function
 }
 
@@ -55,10 +54,7 @@ var input_appointment_button = function ()
         alert("There are empty boxes")
         return;
     }
-    else
-    
-
-    
+    else   
 }
 
 

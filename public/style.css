@@ -252,6 +252,8 @@ form {
 .form-field {
     display: flex;
     justify-content: space-between;
+    color: #251a07;
+    font-family: fantasy;
 }
 
 .about-header {
@@ -409,7 +411,8 @@ div.info-email{
 .input-info {
     padding-left: 15%;
     font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: monospace;
+    color: black;
 }
 
 .heading-heading-gold{
@@ -417,3 +420,4 @@ div.info-email{
     font-size: xx-large;
     color: #CEB793;
 }
+
