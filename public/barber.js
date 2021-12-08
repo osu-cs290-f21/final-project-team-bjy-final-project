@@ -6,8 +6,9 @@
 
 var allPosts = []
 
-var submitButton = document.getElementsByClassName('btn')
+var submitButton = document.querySelector('.btn')
 submitButton.addEventListener('click', function () {
+    console.log("== button lcicked")
     var apptName = document.getElementById('client-name').value
     var apptEmail = document.getElementById('client-email').value
     var apptDate = document.getElementById('client-date').value
@@ -30,7 +31,7 @@ function insertNewPost(name, email, date, time, type) {
     var listAppt = Handlebars.templates.barberPost(posts)
 
     var posting = document.getElementById('posts');
-    posting.insertAdjacentHTML("beforeend", newPost)
+    posting.insertAdjacentHTML("beforeend", listAppt)
 }
 
 
