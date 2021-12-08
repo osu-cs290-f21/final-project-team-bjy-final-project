@@ -6,8 +6,9 @@
 var appointmentList = document.getElementById('client-name')
 var appointmentList = document.getElementById('email')
 var appointmentList = document.getElementById('date')
-var appointmentList = document.getElementById('Time')
+var appointmentList = document.getElementById('time')
 var appointmentList = document.getElementById('select')
+
 
 
 function modal_switch() 
@@ -30,7 +31,8 @@ function empty()
     document.getElementById('select').click();
 }
 
-var input_appointment_button = function 
+
+var input_appointment_button = function ()
 {
     var check_name = document.getElementById('client-name').value;
     var check_e_mail = document.getElementById('email').value;
