@@ -370,7 +370,8 @@ div.info-email{
     float: left;
     padding-left: 5px;
     margin-left: 5px;
-    width: 100%;
+    width: 800px;
+    /* left: -550px; */
 }
 
 .form-page {
