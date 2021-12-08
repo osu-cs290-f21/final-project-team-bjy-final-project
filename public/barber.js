@@ -16,7 +16,17 @@ submitButton.addEventListener('click', function () {
     var apptType = document.getElementById('client-type').value
 
     insertNewPost(apptName, apptEmail, apptDate, apptTime, apptType)
+
+    clearInputs();
 })
+
+function clearInputs() {
+    document.getElementById('client-name').value = ""
+    document.getElementById('client-email').value = ""
+    document.getElementById('client-date').value = ""
+    document.getElementById('client-time').value = ""
+    document.getElementById('client-type').value = ""
+}
 
 function insertNewPost(name, email, date, time, type) {
     var posts = {
